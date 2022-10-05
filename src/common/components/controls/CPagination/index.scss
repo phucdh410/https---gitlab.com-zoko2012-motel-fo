@@ -1,0 +1,16 @@
+.MuiPagination-root.c-pagination {
+	li {
+		.MuiPaginationItem-root {
+			margin: 0;
+			background-color: white;
+			&.Mui-selected {
+				background-color: #3c6be2;
+				color: white;
+			}
+			&.MuiPaginationItem-previousNext {
+				background-color: white;
+				color: #3c6be2;
+			}
+		}
+	}
+}

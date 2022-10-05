@@ -1,0 +1,26 @@
+{
+	"compilerOptions": {
+		"experimentalDecorators": true,
+		"baseUrl": ".",
+		"paths": {
+			"~/*": ["./*"],
+			"@/*": ["./*"],
+			"~~/*": ["./*"],
+			"@@/*": ["./*"],
+			"@apis/*": ["./src/apis/*"],
+			"@assets/*": ["./src/assets/*"],
+			"@components/*": ["./src/common/components/*"],
+			"@constants/*": ["./src/common/constants/*"],
+			"@routes/*": ["./src/common/routes/*"],
+			"@configs/*": ["./src/configs/*"],
+			"@contexts/*": ["./src/contexts/*"],
+			"@hooks/*": ["./src/hooks/*"],
+			"@modules/*": ["./src/modules/*"],
+			"@redux/*": ["./src/redux/*"],
+			"@utils/*": ["./src/utils/*"],
+			"@axios/*": ["./src/utils/axios/*"],
+			"@theme/*": ["./src/theme/*"]
+		}
+	},
+	"exclude": ["node_modules", ".next"]
+}

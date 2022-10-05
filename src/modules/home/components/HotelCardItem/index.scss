@@ -1,0 +1,68 @@
+.MuiCard-root.hotel-card-item {
+	padding: 15px 20px;
+	background: #ffffff;
+	border-radius: 20px;
+	.MuiCardContent-root {
+		padding: 0;
+		&:last-child {
+			padding-bottom: 0;
+		}
+		padding-left: 10px;
+
+		.MuiTypography-root {
+			&.address {
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 15px;
+				letter-spacing: 0.05em;
+				color: #4d4d4d;
+			}
+			&.name {
+				font-weight: 500;
+				font-size: 22px;
+				line-height: 27px;
+				letter-spacing: 0.05em;
+				color: #191919;
+			}
+			&.price {
+				font-weight: 700;
+				font-size: 20px;
+				line-height: 24px;
+				letter-spacing: 0.03em;
+				color: #3c6be2;
+			}
+			&.month {
+				font-weight: 400;
+				font-size: 12px;
+				line-height: 15px;
+				letter-spacing: 0.05em;
+				color: #4d4d4d;
+			}
+		}
+
+		.feature-container {
+			.MuiFormControlLabel-root {
+				margin: 0;
+
+				.MuiCheckbox-root {
+					padding: 0;
+					color: #0a1d50;
+					&.Mui-disabled {
+						color: #0a1d50;
+					}
+					.MuiSvgIcon-root {
+						font-size: 0.9rem;
+					}
+				}
+				.MuiFormControlLabel-label {
+					margin-left: 5px;
+					font-weight: 400;
+					font-size: 11px;
+					line-height: 15px;
+					letter-spacing: 0.05em;
+					color: #4d4d4d;
+				}
+			}
+		}
+	}
+}

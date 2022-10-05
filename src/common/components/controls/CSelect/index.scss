@@ -1,0 +1,27 @@
+.MuiOutlinedInput-root.c-select {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	min-width: 100px;
+	.MuiOutlinedInput-input {
+		padding: 6.5px 13px;
+	}
+	&:hover {
+		fieldset.MuiOutlinedInput-notchedOutline {
+			border-color: black;
+		}
+	}
+	&.Mui-focused {
+		fieldset.MuiOutlinedInput-notchedOutline {
+			border-color: #1976d2;
+		}
+	}
+}
+
+fieldset.MuiOutlinedInput-notchedOutline {
+	border: 2px solid #c4c4c4;
+	border-radius: 4px;
+	&:hover {
+		border-color: black;
+	}
+}

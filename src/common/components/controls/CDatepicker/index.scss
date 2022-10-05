@@ -1,0 +1,43 @@
+.MuiTextField-root.c-datepicker {
+	.MuiOutlinedInput-root {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		&:hover {
+			fieldset.MuiOutlinedInput-notchedOutline {
+				border-color: black;
+			}
+		}
+		&.Mui-focused {
+			fieldset.MuiOutlinedInput-notchedOutline {
+				border-color: #1976d2;
+			}
+		}
+	}
+	input.MuiOutlinedInput-input {
+		padding: 7px 13px;
+		height: unset;
+		&.MuiInputBase-inputAdornedStart {
+			padding-left: 0;
+		}
+		&.MuiInputBase-inputAdornedEnd {
+			padding-right: 0;
+		}
+	}
+
+	.MuiInputAdornment-root {
+		&.MuiInputAdornment-positionStart {
+			margin-right: 0;
+		}
+	}
+	fieldset.MuiOutlinedInput-notchedOutline {
+		border: 2px solid #c4c4c4;
+		border-radius: 4px;
+		&:hover {
+			border-color: black;
+		}
+	}
+	.MuiSvgIcon-root {
+		color: black;
+	}
+}
